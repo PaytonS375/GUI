@@ -47,6 +47,6 @@ class myGUI:
         tkinter.mainloop()
 
 # Create an instance of the MyGUI class
-my_gui = myGUI()
+myGUI = myGUI()
 
 print('I am done!')

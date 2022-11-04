@@ -9,7 +9,7 @@ class myGUI:
         self.main_window = tkinter.Tk()
 
         self.main_window.geometry('500x200')
-        self.main_window.title('Label Demo')
+        self.main_window.title('Frame Demo')
 
         # Create two frames, one for the top of the
         # window, and one for the bottom
@@ -70,6 +70,6 @@ class myGUI:
         tkinter.messagebox.showinfo('Response', 'Thanks for clicking me!')
 
 # Create an instance of the MyGUI class
-my_gui = myGUI()
+myGUI = myGUI()
 
 print('I am done!')
